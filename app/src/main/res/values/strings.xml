@@ -6,7 +6,7 @@
         \n\nI love met.
         \n\nI love to gaming, watch movies
         \n\nI am 29 Years old and i still watch cartoon.
-        \n\nSome of my fav cartoon shows are doremon, tom & jerry
+        \n\nSome of my fav cartoon shows are doremon, tom and jerry
         \n\nI love to pass time with my computer,
         \n\nLove to learn coding and develop new things.
         \n\nThis is my small bio for texting the scrollView
@@ -19,31 +19,12 @@
         \n\nLove to learn coding and develop new things.
         \n\nThis is my small bio for texting the scrollView
         \n\n
-        \n\nI love met.
-        \n\nI love to gaming, watch movies
-        \n\nI am 29 Years old and i still watch cartoon.
-        \n\nSome of my fav cartoon shows are doremon, tom & jerry
-        \n\nI love to pass time with my computer,
-        \n\nLove to learn coding and develop new things.
-        \n\nThis is my small bio for texting the scrollView
-        \n\nI just repeat all the text aging
-        \n\n
         \n\nI love to gaming, watch movies
         \n\nI am 29 Years old and i still watch cartoon.
         \n\nSome of my fav cartoon shows is tom and jerry
         \n\nI love to pass time with my computer,
         \n\nLove to learn coding and develop new things.
         \n\nThis is my small bio for texting the scrollView
-        \n\n
-
-        \n\nI love met.
-        \n\nI love to gaming, watch movies
-        \n\nI am 29 Years old and i still watch cartoon.
-        \n\nSome of my fav cartoon shows are doremon, tom & jerry
-        \n\nI love to pass time with my computer,
-        \n\nLove to learn coding and develop new things.
-        \n\nThis is my small bio for texting the scrollView
-        \n\nI just repeat all the text aging
         \n\n
         \n\nI love to gaming, watch movies
         \n\nI am 29 Years old and i still watch cartoon.
@@ -53,4 +34,5 @@
         \n\nThis is my small bio for texting the scrollView
         \n\n
     </string>
+    <string name="what_is_your_nickname">What is your nick name?</string>
 </resources>
