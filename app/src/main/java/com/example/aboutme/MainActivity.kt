@@ -16,10 +16,15 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
+    // Instance of MyName data class.
+    private val myName: MyName = MyName("Rakib Uzzaman")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //setContentView(R.layout.activity_main)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+
+        binding.myName = myName
 
         //findViewById<Button>(R.id.done_button).setOnClickListener {
         //    addNickname(it)
@@ -35,11 +40,12 @@ class MainActivity : AppCompatActivity() {
        // val nicknameTextview = findViewById<TextView>(R.id.nickname_text)
 
         binding.apply {
-            binding.nicknameText.text = binding.nicknameEdit.text
+            //binding.nicknameText.text = binding.nicknameEdit.text
+            myName?.nickname = nicknameEdit.text.toString()
             invalidateAll()
-            binding.nicknameEdit.visibility = View.GONE
-            binding.doneButton.visibility = View.GONE
-            binding.nicknameText.visibility = View.VISIBLE
+            nicknameEdit.visibility = View.GONE
+            doneButton.visibility = View.GONE
+            nicknameText.visibility = View.VISIBLE
         }
         //hide keyboard input
         val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
